@@ -1,0 +1,64 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    user-select: none;
+}
+
+header {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}   
+
+h1 {
+    filter: drop-shadow(1px 1px 30px white);
+    -webkit-filter: drop-shadow(1px 1px 30px white);
+}
+
+section {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    font-weight: bold;
+}
+
+button {
+    width: 20vh;
+    height: 20vh;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+button:hover {
+    filter: drop-shadow(1px 1px 20px white);
+    -webkit-filter: drop-shadow(1px 1px 20px white);
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+}
+
+button:active {
+    filter: drop-shadow(1px 1px 30px white);
+    -webkit-filter: drop-shadow(1px 1px 30px white);
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+}
+
+img {
+    width: 20vh;
+    height: 20vh;
+}
